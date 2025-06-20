@@ -10,12 +10,12 @@ namespace Ejercicio_11
     {
         static void Main(string[] args)
         {
-            int x=0;
+            string x;
             do
             {
                 Console.WriteLine("Ingrese su contraseña:");
-                x = Convert.ToInt32(Console.ReadLine());
-            } while (x != 1234);
+                x = Console.ReadLine();
+            } while (x != "1234");
             Console.WriteLine("Bienvenido de nuevo");
 
         }
